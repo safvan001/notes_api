@@ -22,7 +22,7 @@ This project is a simple RESTful API for a note-taking application built using D
 
 ## Endpoints
 
-### POST /notes/
+### POST api/notes/
 Create a new note.
 
 **Request Body:**
@@ -33,16 +33,16 @@ Create a new note.
 }
 ```
 
-### GET /notes/int:pk/
+### GET api/notes/int:pk/
 Fetch a note by its primary key.
 
-### GET /notes/query/
+### GET api/notes/query/
 Query notes by title substring.
 
 Query Parameters:
 title: The substring to search for in note titles.
 
-### PUT /notes/int:pk/update/
+### PUT api/notes/int:pk/update/
 Update an existing note.
 ```json
 {
