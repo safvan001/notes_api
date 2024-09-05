@@ -52,4 +52,12 @@ Update an existing note.
   "body": "Updated body content."
 }
 ```
+## Installation
+```
+https://github.com/safvan001/notes_api.git
+```
+```
+cd noteapi
+```
+
 
